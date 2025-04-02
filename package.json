@@ -1,0 +1,23 @@
+{
+  "name": "college-timetable",
+  "version": "1.0.0",
+  "description": "A time-table built for teachers to view their classes and schedule.",
+  "homepage": "https://github.com/Vishisht-Dwivedi/College-timeTable#readme",
+  "bugs": {
+    "url": "https://github.com/Vishisht-Dwivedi/College-timeTable/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vishisht-Dwivedi/College-timeTable.git"
+  },
+  "license": "ISC",
+  "author": "Vishisht Dwivedi, Ashish Gautam",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "dependencies": {
+    "vite": "^6.2.4"
+  }
+}
