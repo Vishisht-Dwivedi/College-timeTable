@@ -36,7 +36,7 @@ const Hero = ({ setSelected, setChoice }) => {
                 <Typography variant="body1" color="grey.300" gutterBottom>
                     View, search, and manage academic schedules for students and faculty
                 </Typography>
-                <Stack direction="row" spacing={2} justifyContent="center" mt={4} flexWrap="wrap">
+                <Stack direction="row" spacing={2} justifyContent="center" mt={4} mb={2} flexWrap="wrap">
                     <Button variant="contained" onClick={teachers}>
                         View Teacher&apos;s Timetable
                     </Button>
@@ -55,6 +55,14 @@ const Hero = ({ setSelected, setChoice }) => {
                         View Classroom&apos;s Timetable
                     </Button>
                 </Stack>
+                <Button variant="outlined" sx={{
+                    borderColor: "white",
+                    color: "white",
+                    "&:hover": {
+                        backgroundColor: "white",
+                        color: "#0a1f44",
+                    },
+                }}>Admin Dashboard</Button>
             </Box>
         </Box>
     );
